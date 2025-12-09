@@ -7,7 +7,7 @@ import sys
 # 1. Get your free API Key here: https://aistudio.google.com/app/apikey
 # 2. Paste it inside the quotes below.
 # ---------------------------------------------------------------------------
-GOOGLE_API_KEY = "AIzaSyAm6rq5FbrsmvvMjdEBcmxIGqEhfDohook"
+GOOGLE_API_KEY = ""
 
 # Configure the library
 try:
@@ -66,4 +66,5 @@ if __name__ == "__main__":
             print("\nJarvis: Goodbye!")
             break
         except Exception as e:
+
             print(f"An unexpected error occurred: {e}")
